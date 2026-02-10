@@ -7,11 +7,17 @@ oPlayer.x += xSpeed;
 
 if (!grounded) {
 	ySpeed += grav;
+}else if(grounded){
+	ySpeed = 0; 
 }
 
 xSpeed = move_speed*(right_key - left_key);
 
+//jump action
 if (jump_key && grounded) {
 	oPlayer.ySpeed -= jump_power;
 	grounded = false;
 }
+
+grounded = false;
+
