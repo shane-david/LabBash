@@ -18,10 +18,7 @@ inv_anim_speed = 0.03;
 global.inventory = array_create(slot_count, -1);
 
 // Test fill
-global.inventory[0] = {
-	sprite: sPower1,
-	frame: 0
-};
+
 global.inventory[1] = {
 	sprite: sPower2,
 	frame: 0

@@ -8,7 +8,7 @@
     "children":[],
     "name":"Default",
   },
-  "defaultScriptType":0,
+  "defaultScriptType":1,
   "Folders":[
     {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Rooms","folderPath":"folders/Rooms.yy","name":"Rooms","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -35,6 +35,8 @@
     {"id":{"name":"rmSpeed","path":"rooms/rmSpeed/rmSpeed.yy",},},
     {"id":{"name":"rmStartScreen","path":"rooms/rmStartScreen/rmStartScreen.yy",},},
     {"id":{"name":"rmStretch","path":"rooms/rmStretch/rmStretch.yy",},},
+    {"id":{"name":"AddPower","path":"scripts/AddPower/AddPower.yy",},},
+    {"id":{"name":"PowerList","path":"scripts/PowerList/PowerList.yy",},},
     {"id":{"name":"sInventory","path":"sprites/sInventory/sInventory.yy",},},
     {"id":{"name":"sPower1","path":"sprites/sPower1/sPower1.yy",},},
     {"id":{"name":"sPower2","path":"sprites/sPower2/sPower2.yy",},},
