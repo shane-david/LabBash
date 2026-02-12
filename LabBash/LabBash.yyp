@@ -27,6 +27,7 @@
   },
   "name":"LabBash",
   "resources":[
+    {"id":{"name":"oDebugDisplay","path":"objects/oDebugDisplay/oDebugDisplay.yy",},},
     {"id":{"name":"oEnemy","path":"objects/oEnemy/oEnemy.yy",},},
     {"id":{"name":"oEnemyProjectile","path":"objects/oEnemyProjectile/oEnemyProjectile.yy",},},
     {"id":{"name":"oFloor","path":"objects/oFloor/oFloor.yy",},},
@@ -38,6 +39,7 @@
     {"id":{"name":"rmSpeed","path":"rooms/rmSpeed/rmSpeed.yy",},},
     {"id":{"name":"rmStartScreen","path":"rooms/rmStartScreen/rmStartScreen.yy",},},
     {"id":{"name":"rmStretch","path":"rooms/rmStretch/rmStretch.yy",},},
+    {"id":{"name":"scr_stretch","path":"scripts/scr_stretch/scr_stretch.yy",},},
     {"id":{"name":"sEnemy1","path":"sprites/sEnemy1/sEnemy1.yy",},},
     {"id":{"name":"sprEnemyProjectile","path":"sprites/sprEnemyProjectile/sprEnemyProjectile.yy",},},
     {"id":{"name":"sprFloor","path":"sprites/sprFloor/sprFloor.yy",},},

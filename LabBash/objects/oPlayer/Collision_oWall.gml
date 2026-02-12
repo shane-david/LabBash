@@ -10,3 +10,9 @@ if(keyboard_check(ord("A")) && x<other.x){
 else if (keyboard_check(ord("D")) && x>other.x){	
 	xSpeed = move_speed; 
 }
+
+if (state == pState.swing)
+{
+	ropeAngle = point_direction(grappleX,grappleY,x,y);
+	ropeAngleVelocity = 0;
+}
