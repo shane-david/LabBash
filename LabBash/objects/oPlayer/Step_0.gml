@@ -1,6 +1,6 @@
 var left_key = keyboard_check(ord("A"));
 var right_key = keyboard_check(ord("D"));
-var jump_key = keyboard_check(vk_space);
+jump_key = keyboard_check(vk_space);
 
 oPlayer.y += ySpeed;
 oPlayer.x += xSpeed;
