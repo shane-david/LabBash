@@ -28,6 +28,7 @@
   "name":"LabBash",
   "resources":[
     {"id":{"name":"oEnemy","path":"objects/oEnemy/oEnemy.yy",},},
+    {"id":{"name":"oEnemyProjectile","path":"objects/oEnemyProjectile/oEnemyProjectile.yy",},},
     {"id":{"name":"oFloor","path":"objects/oFloor/oFloor.yy",},},
     {"id":{"name":"oGameManager","path":"objects/oGameManager/oGameManager.yy",},},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
@@ -38,6 +39,7 @@
     {"id":{"name":"rmStartScreen","path":"rooms/rmStartScreen/rmStartScreen.yy",},},
     {"id":{"name":"rmStretch","path":"rooms/rmStretch/rmStretch.yy",},},
     {"id":{"name":"sEnemy1","path":"sprites/sEnemy1/sEnemy1.yy",},},
+    {"id":{"name":"sprEnemyProjectile","path":"sprites/sprEnemyProjectile/sprEnemyProjectile.yy",},},
     {"id":{"name":"sprFloor","path":"sprites/sprFloor/sprFloor.yy",},},
     {"id":{"name":"sprPlayer","path":"sprites/sprPlayer/sprPlayer.yy",},},
     {"id":{"name":"sprWall","path":"sprites/sprWall/sprWall.yy",},},
