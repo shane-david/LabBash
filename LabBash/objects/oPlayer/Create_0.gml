@@ -6,3 +6,6 @@ grounded = false;
 
 ySpeed = 0;
 xSpeed = 0;
+
+hp = 100; 
+iframes = 0; 

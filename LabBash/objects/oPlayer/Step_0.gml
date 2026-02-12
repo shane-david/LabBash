@@ -21,3 +21,8 @@ if (jump_key && grounded) {
 
 grounded = false;
 
+//iframes counter
+if (iframes > 0) {
+	iframes--; 
+}
+

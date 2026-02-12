@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"oStretch",
+  "%Name":"oSpeed",
   "eventList":[],
   "managed":true,
-  "name":"oStretch",
+  "name":"oSpeed",
   "overriddenProperties":[],
   "parent":{
     "name":"Symbiotes",
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sPower1",
-    "path":"sprites/sPower1/sPower1.yy",
+    "name":"sPower3",
+    "path":"sprites/sPower3/sPower3.yy",
   },
   "spriteMaskId":null,
   "visible":true,
