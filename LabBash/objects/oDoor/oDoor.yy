@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"oHookJump",
+  "%Name":"oDoor",
   "eventList":[],
   "managed":true,
-  "name":"oHookJump",
+  "name":"oDoor",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprHookJump",
-    "path":"sprites/sprHookJump/sprHookJump.yy",
+    "name":"sDoor",
+    "path":"sprites/sDoor/sDoor.yy",
   },
   "spriteMaskId":null,
   "visible":true,

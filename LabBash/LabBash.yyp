@@ -30,6 +30,7 @@
   "name":"LabBash",
   "resources":[
     {"id":{"name":"oBackgroundScroller","path":"objects/oBackgroundScroller/oBackgroundScroller.yy",},},
+    {"id":{"name":"oDoor","path":"objects/oDoor/oDoor.yy",},},
     {"id":{"name":"oEnemy","path":"objects/oEnemy/oEnemy.yy",},},
     {"id":{"name":"oEnemyProjectile","path":"objects/oEnemyProjectile/oEnemyProjectile.yy",},},
     {"id":{"name":"oFloor","path":"objects/oFloor/oFloor.yy",},},
@@ -48,6 +49,7 @@
     {"id":{"name":"rmSpeed","path":"rooms/rmSpeed/rmSpeed.yy",},},
     {"id":{"name":"rmStartScreen","path":"rooms/rmStartScreen/rmStartScreen.yy",},},
     {"id":{"name":"rmStretch","path":"rooms/rmStretch/rmStretch.yy",},},
+    {"id":{"name":"sDoor","path":"sprites/sDoor/sDoor.yy",},},
     {"id":{"name":"sEnemy1","path":"sprites/sEnemy1/sEnemy1.yy",},},
     {"id":{"name":"sInventory","path":"sprites/sInventory/sInventory.yy",},},
     {"id":{"name":"sPower1","path":"sprites/sPower1/sPower1.yy",},},
