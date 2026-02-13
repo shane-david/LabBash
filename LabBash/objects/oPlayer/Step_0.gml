@@ -5,7 +5,7 @@ var jump_key = keyboard_check(vk_space);
 oPlayer.y += ySpeed;
 oPlayer.x += xSpeed;
 
-if (!grounded) {
+if (!grounded && ySpeed<maxFallSpeed) {
 	ySpeed += grav;
 }else if(grounded){
 	ySpeed = 0; 
