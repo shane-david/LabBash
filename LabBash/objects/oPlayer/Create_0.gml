@@ -1,5 +1,5 @@
 move_speed = 4;
-jump_power = 20;
+jump_power = 10;
 grav = 1;
 
 grounded = false;
