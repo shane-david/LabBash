@@ -15,3 +15,8 @@ xSpeed = move_speed*(right_key - left_key);
 
 grounded = false;
 
+//iframes counter
+if (iframes > 0) {
+	iframes--; 
+}
+
