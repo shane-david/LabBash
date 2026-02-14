@@ -1,15 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"oStretch",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"oCeiling",
+  "eventList":[],
   "managed":true,
-  "name":"oStretch",
+  "name":"oCeiling",
   "overriddenProperties":[],
   "parent":{
-    "name":"Symbiotes",
-    "path":"folders/Objects/Symbiotes.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sPower1",
-    "path":"sprites/sPower1/sPower1.yy",
+    "name":"sprCeiling",
+    "path":"sprites/sprCeiling/sprCeiling.yy",
   },
   "spriteMaskId":null,
   "visible":true,
