@@ -22,6 +22,8 @@ if (instance_exists(oPlayer)) {
 	draw_text(10, _y_pos, "jump_power: " + string(oPlayer.jump_power));
 	_y_pos += _line_height;
 	draw_text(10, _y_pos, "ySpeed: " + string(oPlayer.ySpeed));
+	_y_pos += _line_height;
+	draw_text(10, _y_pos, "xSpeed: " + string(oPlayer.xSpeed));
 	
 }
 
