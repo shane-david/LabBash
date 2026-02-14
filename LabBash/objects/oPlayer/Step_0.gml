@@ -18,6 +18,7 @@ grounded = false;
 //iframes counter
 if (iframes > 0) {
 	iframes--; 
+}
 
 if(mouse_check_button_pressed(mb_left))
 {
