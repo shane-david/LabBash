@@ -16,6 +16,13 @@ if (instance_exists(oPlayer)) {
     _y_pos += _line_height;
     draw_text(10, _y_pos, "Player Y: " + string(oPlayer.y));
     _y_pos += _line_height;
+	
+	draw_text(10, _y_pos, "grav: " + string(oPlayer.grav)); 
+	_y_pos += _line_height;
+	draw_text(10, _y_pos, "jump_power: " + string(oPlayer.jump_power));
+	_y_pos += _line_height;
+	draw_text(10, _y_pos, "ySpeed: " + string(oPlayer.ySpeed));
+	
 }
 
 //// Display a custom variable

@@ -9,7 +9,9 @@ if (keyboard_check_pressed(ord("1"))) {
 	//if the first inventory slot is not empty
 	if (global.inventory[0] != -1) {
 		
-		//TODO activate the stretch powers in this section
+		//activate stretch powers
+		playerPower = "STRETCH";
+		oPlayer.changeStats("STRETCH"); 
 		show_debug_message("Strech Powers Activated!");
 	}
 	//if the slot is empty
@@ -26,7 +28,8 @@ if (keyboard_check_pressed(ord("2"))) {
 	//if the second inventory slot is not empty
 	if (global.inventory[1] != -1) {
 		
-		//TODO activate the jump powers in this section
+		playerPower = "JUMP";
+		oPlayer.changeStats("JUMP"); 
 		show_debug_message("Jump Powers Activated!");
 	}
 	//if the slot is empty
@@ -43,7 +46,8 @@ if (keyboard_check_pressed(ord("3"))) {
 	//if the third inventory slot is not empty
 	if (global.inventory[2] != -1) {
 		
-		//TODO activate the speed powers in this section
+		playerPower = "SPEED";
+		oPlayer.changeStats("SPEED"); 
 		show_debug_message("Speed Powers Activated!");
 	}
 	//if the slot is empty
