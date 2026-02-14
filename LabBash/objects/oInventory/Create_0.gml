@@ -28,6 +28,7 @@ global.inventory[0] = {
 	sprite: sPower1,
 	frame: 0
 };
+/*
 global.inventory[1] = {
 	sprite: sPower2,
 	frame: 0
