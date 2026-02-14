@@ -2,7 +2,6 @@
 draw_set_halign(fa_left);
 draw_set_valign(fa_top);
 draw_set_colour(c_white); // Use draw_set_color in newer versions
-global.game_state = pState.normal;
 // Define starting Y position and line height
 var _y_pos = 10;
 var _line_height = 20; // Adjust as needed based on your font size
@@ -19,5 +18,5 @@ if (instance_exists(oPlayer)) {
     _y_pos += _line_height;
 }
 
-// Display a custom variable
-draw_text(10, _y_pos, "Game State: " + string(global.game_state));
+//// Display a custom variable
+//draw_text(10, _y_pos, "Game State: " + string(global.game_state));

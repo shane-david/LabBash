@@ -1,4 +1,6 @@
-if (state == pState.swing) draw_line_width(grappleX,grappleY,ropeX,ropeY,2);
+if(active){
+	draw_line(x,y,mx,my)	
+}
 
 draw_self();
 
