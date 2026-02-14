@@ -9,11 +9,28 @@ for example:
 */
 function AddPower(powerNumber){
 	
-	//add power to the global array in oInventory
-	var spriteName = "sPower" + string(powerNumber);
-	global.inventory[powerNumber - 1] = {
-	sprite: spriteName,
-	frame: 0
-};
+	//if the power to add is the first one then add it to the inventory array	
+	if (powerNumber == 1) {
+		global.inventory[powerNumber - 1] = {
+			sprite: sPower1,
+			frame: 0
+		};
+	}
+	//if the power to add is the second one then add it to the inventory array	
+	else if (powerNumber == 2) {
+		global.inventory[powerNumber - 1] = {
+			sprite: sPower2,
+			frame: 0
+		};
+		
+		
+	}
+	//if the power to add is the third one then add it to the inventory array	
+	else if (powerNumber == 3) {
+		global.inventory[powerNumber - 1] = {
+			sprite: sPower3,
+			frame: 0
+		};
+	}
 
 }

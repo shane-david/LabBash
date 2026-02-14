@@ -6,11 +6,11 @@ if (inventory_open) {
 	var inv_scale = 6; // 6x bigger
 
 
-	var frame = inv_frame mod sprite_get_number(sInventory);
+	var inventoryFrame = inv_frame mod sprite_get_number(sInventory);
 
 	draw_sprite_ext(
 	    sInventory,
-	    frame,
+	    inventoryFrame,
 	    base_x,
 	    base_y,
 	    inv_scale,
