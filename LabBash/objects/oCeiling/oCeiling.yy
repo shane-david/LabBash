@@ -1,13 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"oEnemy",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"oCeiling",
+  "eventList":[],
   "managed":true,
-  "name":"oEnemy",
+  "name":"oCeiling",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -32,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sEnemy1",
-    "path":"sprites/sEnemy1/sEnemy1.yy",
+    "name":"sprCeiling",
+    "path":"sprites/sprCeiling/sprCeiling.yy",
   },
   "spriteMaskId":null,
   "visible":true,

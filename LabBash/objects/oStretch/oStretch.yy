@@ -1,15 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"oGameManager",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"oStretch",
+  "eventList":[],
   "managed":true,
-  "name":"oGameManager",
+  "name":"oStretch",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Symbiotes",
+    "path":"folders/Objects/Symbiotes.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -29,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"sPower1",
+    "path":"sprites/sPower1/sPower1.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
