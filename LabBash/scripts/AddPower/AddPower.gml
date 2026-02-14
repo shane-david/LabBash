@@ -9,20 +9,10 @@ for example:
 */
 function AddPower(powerNumber){
 	
-	//an array that holds the sprites
-	/*
-	powerSprites = array_create(3,-1) 
-	{
-		sPower1,
-		sPower2,
-		sPower3
-	};
-	*/
-	
 	//add power to the global array in oInventory
-	
+	var spriteName = "sPower" + string(powerNumber);
 	global.inventory[powerNumber - 1] = {
-	sprite: sPower1,
+	sprite: spriteName,
 	frame: 0
 };
 
