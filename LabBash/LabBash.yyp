@@ -48,6 +48,7 @@
     {"id":{"name":"rmSpeed","path":"rooms/rmSpeed/rmSpeed.yy",},},
     {"id":{"name":"rmStartScreen","path":"rooms/rmStartScreen/rmStartScreen.yy",},},
     {"id":{"name":"rmStretch","path":"rooms/rmStretch/rmStretch.yy",},},
+    {"id":{"name":"AddPower","path":"scripts/AddPower/AddPower.yy",},},
     {"id":{"name":"sEnemy1","path":"sprites/sEnemy1/sEnemy1.yy",},},
     {"id":{"name":"sInventory","path":"sprites/sInventory/sInventory.yy",},},
     {"id":{"name":"sPower1","path":"sprites/sPower1/sPower1.yy",},},
