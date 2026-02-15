@@ -87,9 +87,9 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"rmJump","path":"rooms/rmJump/rmJump.yy",},},
     {"roomId":{"name":"rmTutorial","path":"rooms/rmTutorial/rmTutorial.yy",},},
     {"roomId":{"name":"rmStretch","path":"rooms/rmStretch/rmStretch.yy",},},
-    {"roomId":{"name":"rmJump","path":"rooms/rmJump/rmJump.yy",},},
     {"roomId":{"name":"rmSpeed","path":"rooms/rmSpeed/rmSpeed.yy",},},
     {"roomId":{"name":"rmStartScreen","path":"rooms/rmStartScreen/rmStartScreen.yy",},},
     {"roomId":{"name":"rmGameOver","path":"rooms/rmGameOver/rmGameOver.yy",},},

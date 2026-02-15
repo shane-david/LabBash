@@ -12,6 +12,7 @@ if (keyboard_check_pressed(ord("1"))) {
 		//activate stretch powers
 		playerPower = "STRETCH";
 		oPlayer.changeStats("STRETCH"); 
+		oPlayer.image_index = 1;
 		show_debug_message("Strech Powers Activated!");
 	}
 	//if the slot is empty
@@ -29,7 +30,8 @@ if (keyboard_check_pressed(ord("2"))) {
 	if (global.inventory[1] != -1) {
 		
 		playerPower = "JUMP";
-		oPlayer.changeStats("JUMP"); 
+		oPlayer.changeStats("JUMP");
+		oPlayer.image_index = 2;
 		show_debug_message("Jump Powers Activated!");
 	}
 	//if the slot is empty
@@ -48,6 +50,7 @@ if (keyboard_check_pressed(ord("3"))) {
 		
 		playerPower = "SPEED";
 		oPlayer.changeStats("SPEED"); 
+		oPlayer.image_index = 3;
 		show_debug_message("Speed Powers Activated!");
 	}
 	//if the slot is empty

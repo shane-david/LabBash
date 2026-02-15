@@ -13,7 +13,7 @@ if (image_index == 5 && image_speed > 0) {
 		instance_create_layer(x, y, "Instances", oSpeed);
 		break;
 	case rmStretch:
-		instance_create_layer(x, y, "Instances", oJump);
+		instance_create_layer(x, y, "Other", oJump);
 		break; 
 	}
 	
