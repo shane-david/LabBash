@@ -3,7 +3,7 @@
  
 
 //makes sure you're not on top of wall
-if((y>other.y+2)){
+if((y>other.y+1)){
 	xSpeed = 0;
 	//checks for imput when on wall to move off wall 
 	if(keyboard_check(ord("A")) && x<other.x){
