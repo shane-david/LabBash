@@ -59,3 +59,9 @@ if (oGameManager.playerPower = "STRETCH") {
 	}
 }
 
+
+//if the player drops off the map 
+if( y >= 1500){
+	room_goto(rmGameOver);
+}
+
