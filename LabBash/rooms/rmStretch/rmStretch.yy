@@ -43,7 +43,6 @@
     {"name":"inst_1E52724","path":"rooms/rmStretch/rmStretch.yy",},
     {"name":"inst_608A1ED3","path":"rooms/rmStretch/rmStretch.yy",},
     {"name":"inst_176F1EDD","path":"rooms/rmStretch/rmStretch.yy",},
-    {"name":"inst_801ACA5","path":"rooms/rmStretch/rmStretch.yy",},
     {"name":"inst_742C235C","path":"rooms/rmStretch/rmStretch.yy",},
     {"name":"inst_67470FA0","path":"rooms/rmStretch/rmStretch.yy",},
     {"name":"inst_6A8A57A5","path":"rooms/rmStretch/rmStretch.yy",},
