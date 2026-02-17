@@ -26,7 +26,9 @@
     {"$GMFolder":"","%Name":"UI","folderPath":"folders/Sprites/UI.yy","name":"UI","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
   "ForcedPrefabProjectReferences":[],
-  "IncludedFiles":[],
+  "IncludedFiles":[
+    {"$GMIncludedFile":"","%Name":"CaseOh.mp4","CopyToMask":-1,"filePath":"datafiles","name":"CaseOh.mp4","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+  ],
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
@@ -64,6 +66,7 @@
     {"id":{"name":"oStretch","path":"objects/oStretch/oStretch.yy",},},
     {"id":{"name":"oStretchDoor","path":"objects/oStretchDoor/oStretchDoor.yy",},},
     {"id":{"name":"oTutorialDoor","path":"objects/oTutorialDoor/oTutorialDoor.yy",},},
+    {"id":{"name":"oVideo","path":"objects/oVideo/oVideo.yy",},},
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},},
     {"id":{"name":"rmEnd","path":"rooms/rmEnd/rmEnd.yy",},},
     {"id":{"name":"rmGameOver","path":"rooms/rmGameOver/rmGameOver.yy",},},
