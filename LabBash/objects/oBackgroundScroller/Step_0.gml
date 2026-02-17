@@ -1,11 +1,11 @@
 // ensure player exists
 if (player == noone || !instance_exists(player)) {
     player = instance_find(oPlayer, 0);
-    if (player != noone) prev_px = player.x;
-    exit; // don't scroll until player is valid
+    if (player == noone) exit;
+    prev_px = player.x;
+    exit;
 }
 
-// dx based on player movement
 var dx = player.x - prev_px;
 prev_px = player.x;
 

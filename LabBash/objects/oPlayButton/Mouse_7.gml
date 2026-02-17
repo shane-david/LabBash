@@ -5,6 +5,7 @@ image_xscale = baseScaleX;
 
 image_yscale = baseScaleY;
 
+//change room
 
-//go to level 1 
-room_goto(rmTutorial); 
+with (oPlayStretch) levelShow = true;
+with (oPlayJump)    levelShow = true;
