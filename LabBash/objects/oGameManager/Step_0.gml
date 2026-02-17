@@ -9,6 +9,8 @@ if (keyboard_check_pressed(ord("1"))) {
 	//if the first inventory slot is not empty
 	if (global.inventory[0] != -1) {
 		
+		audio_play_sound(snd_powerup, 0, false);
+		
 		//activate stretch powers
 		playerPower = "STRETCH";
 		oPlayer.changeStats("STRETCH"); 
@@ -29,6 +31,8 @@ if (keyboard_check_pressed(ord("2"))) {
 	//if the second inventory slot is not empty
 	if (global.inventory[1] != -1) {
 		
+		audio_play_sound(snd_powerup, 0, false);
+		
 		playerPower = "JUMP";
 		oPlayer.changeStats("JUMP");
 		oPlayer.image_index = 2;
@@ -44,6 +48,8 @@ if (keyboard_check_pressed(ord("2"))) {
 
 //If the number 3 key is pressed
 if (keyboard_check_pressed(ord("3"))) {
+	
+	audio_play_sound(snd_powerup, 0, false);
 	
 	//if the third inventory slot is not empty
 	if (global.inventory[2] != -1) {
