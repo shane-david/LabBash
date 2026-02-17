@@ -1,6 +1,6 @@
 //if gets to go then go to level 2 
 
-
+	audio_play_sound(snd_door, 0, false);
 	xSpeed = 0;
 	//checks for imput when on wall to move off wall 
 	if(keyboard_check(ord("A")) && x<other.x){
