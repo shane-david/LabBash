@@ -34,6 +34,7 @@
   "resources":[
     {"id":{"name":"oBackgroundScroller","path":"objects/oBackgroundScroller/oBackgroundScroller.yy",},},
     {"id":{"name":"oCeiling","path":"objects/oCeiling/oCeiling.yy",},},
+    {"id":{"name":"oDeath","path":"objects/oDeath/oDeath.yy",},},
     {"id":{"name":"oDebugDisplay","path":"objects/oDebugDisplay/oDebugDisplay.yy",},},
     {"id":{"name":"oDoor","path":"objects/oDoor/oDoor.yy",},},
     {"id":{"name":"oEndDoor","path":"objects/oEndDoor/oEndDoor.yy",},},
@@ -81,6 +82,7 @@
     {"id":{"name":"sprBackgroundWalls","path":"sprites/sprBackgroundWalls/sprBackgroundWalls.yy",},},
     {"id":{"name":"sprBackgroundWin","path":"sprites/sprBackgroundWin/sprBackgroundWin.yy",},},
     {"id":{"name":"sprCeiling","path":"sprites/sprCeiling/sprCeiling.yy",},},
+    {"id":{"name":"sprDeath","path":"sprites/sprDeath/sprDeath.yy",},},
     {"id":{"name":"sprEnemyProjectile","path":"sprites/sprEnemyProjectile/sprEnemyProjectile.yy",},},
     {"id":{"name":"sprFloor","path":"sprites/sprFloor/sprFloor.yy",},},
     {"id":{"name":"sprGrabBlock","path":"sprites/sprGrabBlock/sprGrabBlock.yy",},},

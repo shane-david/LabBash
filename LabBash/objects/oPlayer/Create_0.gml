@@ -8,6 +8,8 @@ maxFallSpeed = 30;
 grounded = false;
 ySpeed = 0;
 xSpeed = 0;
+xOnGround = 128;
+yOnGround = 576; 
 
 
 hp = 100; 

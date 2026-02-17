@@ -1,8 +1,6 @@
 //deal with player death
-if(instance_exists(oPlayer)){
-if (oPlayer.hp <= 0) {
+if (instance_exists(oPlayer) && oPlayer.hp <= 0) {
 	room_goto(rmGameOver); 
-}
 }
 
 //If the number 1 key is pressed

@@ -30,8 +30,10 @@ if (room == rmStretch) {
 }
 
 //make sure the player has the right stats in new rooms
-if (playerPower == "JUMP") {
-	oPlayer.changeStats("JUMP"); 
-} else if (playerPower == "SPEED") {
-	oPlayer.changeStats("SPEED"); 
+if (instance_exists(oPlayer)) {
+	if (playerPower == "JUMP") {
+		oPlayer.changeStats("JUMP"); 
+	} else if (playerPower == "SPEED") {
+		oPlayer.changeStats("SPEED"); 
+	}
 }
