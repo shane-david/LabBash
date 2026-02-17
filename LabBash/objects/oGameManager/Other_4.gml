@@ -35,5 +35,7 @@ if (instance_exists(oPlayer)) {
 		oPlayer.changeStats("JUMP"); 
 	} else if (playerPower == "SPEED") {
 		oPlayer.changeStats("SPEED"); 
+	} else if (playerPower == "STRETCH") {
+		oPlayer.changeStats("STRETCH"); 
 	}
 }

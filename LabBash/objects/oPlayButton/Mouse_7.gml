@@ -7,4 +7,4 @@ image_yscale = baseScaleY;
 
 
 //go to level 1 
-room_goto(rmStretch); 
+room_goto(rmTutorial); 
