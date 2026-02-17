@@ -12,6 +12,8 @@ jump_key = keyboard_check_pressed(vk_space);
 if (jump_key && grounded) {
 	ySpeed -= jump_power;
 	grounded = false;
+	xOnGround = x;
+	yOnGround = y; 
 }
 
 
