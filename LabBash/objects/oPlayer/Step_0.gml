@@ -12,8 +12,6 @@ jump_key = keyboard_check_pressed(vk_space);
 if (jump_key && grounded) {
 	ySpeed -= jump_power;
 	grounded = false;
-	xOnGround = x;
-	yOnGround = y; 
 }
 
 
@@ -62,4 +60,14 @@ if (oGameManager.playerPower = "STRETCH") {
 }
 
 
+//if the player drops off the map 
+if( !(room == rmJump)){
+	if(y >= 1000){
+		room_goto(rmGameOver);
+	}
+}else{
+	if( y >= 7000){
+		room_goto(rmGameOver); 
+	}
+}
 
