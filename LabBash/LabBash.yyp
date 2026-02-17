@@ -22,7 +22,9 @@
     {"$GMFolder":"","%Name":"UI","folderPath":"folders/Sprites/UI.yy","name":"UI","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
   "ForcedPrefabProjectReferences":[],
-  "IncludedFiles":[],
+  "IncludedFiles":[
+    {"$GMIncludedFile":"","%Name":"CaseOh.mp4","CopyToMask":-1,"filePath":"datafiles","name":"CaseOh.mp4","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+  ],
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
@@ -53,6 +55,7 @@
     {"id":{"name":"oStretch","path":"objects/oStretch/oStretch.yy",},},
     {"id":{"name":"oStretchDoor","path":"objects/oStretchDoor/oStretchDoor.yy",},},
     {"id":{"name":"oTutorialDoor","path":"objects/oTutorialDoor/oTutorialDoor.yy",},},
+    {"id":{"name":"oVideo","path":"objects/oVideo/oVideo.yy",},},
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},},
     {"id":{"name":"rmEnd","path":"rooms/rmEnd/rmEnd.yy",},},
     {"id":{"name":"rmGameOver","path":"rooms/rmGameOver/rmGameOver.yy",},},
@@ -87,12 +90,12 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"rmStartScreen","path":"rooms/rmStartScreen/rmStartScreen.yy",},},
+    {"roomId":{"name":"rmGameOver","path":"rooms/rmGameOver/rmGameOver.yy",},},
     {"roomId":{"name":"rmTutorial","path":"rooms/rmTutorial/rmTutorial.yy",},},
     {"roomId":{"name":"rmJump","path":"rooms/rmJump/rmJump.yy",},},
     {"roomId":{"name":"rmStretch","path":"rooms/rmStretch/rmStretch.yy",},},
     {"roomId":{"name":"rmSpeed","path":"rooms/rmSpeed/rmSpeed.yy",},},
-    {"roomId":{"name":"rmStartScreen","path":"rooms/rmStartScreen/rmStartScreen.yy",},},
-    {"roomId":{"name":"rmGameOver","path":"rooms/rmGameOver/rmGameOver.yy",},},
     {"roomId":{"name":"rmEnd","path":"rooms/rmEnd/rmEnd.yy",},},
   ],
   "templateType":"game",

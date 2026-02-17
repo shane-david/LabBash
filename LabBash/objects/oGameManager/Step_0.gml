@@ -1,5 +1,5 @@
 //deal with player death
-if (oPlayer.hp <= 0) {
+if (oPlayer.hp <= 1) {
 	room_goto(rmGameOver); 
 }
 
