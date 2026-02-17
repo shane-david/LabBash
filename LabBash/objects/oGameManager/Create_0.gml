@@ -8,3 +8,7 @@ playerPower = "NONE";
 tutorialCoords = [128, 576]; 
 tutorialCollected = false;
 stretchCollected = false; 
+
+
+
+player = instance_find(oPlayer, 0);

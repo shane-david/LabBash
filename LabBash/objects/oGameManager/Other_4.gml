@@ -8,10 +8,10 @@ if (room == rmTutorial) {
 	
 	//create objects if they have not been collected 
 	if (!tutorialCollected) {
-		var key = instance_create_layer(3104, 608, "Instances", oKey); 
+		var key = instance_create_layer(3104, 608, "Other", oKey); 
 		key.image_xscale = 2;
 		key.image_yscale = 2; 
-		var lock = instance_create_layer(3360, 544, "Instances", oLock);
+		var lock = instance_create_layer(3360, 544, "Other", oLock);
 		lock.image_yscale = 4;
 		lock.image_xscale = 4; 
 	}
