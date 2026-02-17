@@ -4,4 +4,9 @@ global.inventory[2] = {
 	frame: 0
 };
 
+
+
+instance_create_layer(x, y -100, "Other", oPowerMessage);
+
+
 instance_destroy(); 
